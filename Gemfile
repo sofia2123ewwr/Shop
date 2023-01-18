@@ -29,6 +29,8 @@ gem "tailwindcss-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+#It's a library for generating fake data such as names, addresses, and phone numbers. Faker helps you generate realistic test data, and populate your database with more than a couple of records while you're doing development
+gem "faker"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -55,6 +57,8 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "rspec-rails"
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  #factory_bot is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
+  gem "factory_bot", "~> 6.2"
 end
 
 group :development do
@@ -73,4 +77,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'simplecov', require: false
 end
+
