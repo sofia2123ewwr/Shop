@@ -31,7 +31,7 @@ gem "tailwindcss-rails"
 gem "jbuilder"
 #It's a library for generating fake data such as names, addresses, and phone numbers. Faker helps you generate realistic test data, and populate your database with more than a couple of records while you're doing development
 gem "faker"
-
+gem "devise"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
