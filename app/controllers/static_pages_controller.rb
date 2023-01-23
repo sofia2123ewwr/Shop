@@ -7,7 +7,4 @@ class StaticPagesController < ApplicationController
 
   def products
   end
-
-  def catalog
-  end
 end
