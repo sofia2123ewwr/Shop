@@ -8,8 +8,6 @@ Rails.application.routes.draw do
   get '/cart', to: 'static_pages#cart'
   get '/products', to: 'static_pages#products'
   get '/catalog', to: 'static_pages#catalog'
-  get '/index', to: 'static_pages#index'
-  get '/logout', to: 'sessions#destroy'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   
   # Defines the root path route ("/")
