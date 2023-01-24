@@ -7,4 +7,11 @@ class StaticPagesController < ApplicationController
 
   def products
   end
+
+  def catalog
+  end
+
+  def index
+    @users = User.all
+  end
 end
