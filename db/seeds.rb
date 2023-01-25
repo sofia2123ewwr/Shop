@@ -15,3 +15,5 @@ User.create!(first_name: "Sofiia", last_name: "Shkilna", phone: "380665154604", 
     password = "password"
     User.create!(first_name: first_name, last_name: last_name, email: email, password: password, password_confirmation: password)
 end
+
+  
